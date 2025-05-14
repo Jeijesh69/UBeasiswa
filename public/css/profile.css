@@ -1,0 +1,36 @@
+.section-title {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3C1E86;
+}
+
+.scholarship-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.scholarship-item {
+    background: #f9f9ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 5px solid #F7941D;
+}
+
+.scholarship-item h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.scholarship-status {
+    color: #555;
+    font-size: 14px;
+}
+
+.no-scholarship {
+    color: #888;
+    margin-top: 10px;
+}

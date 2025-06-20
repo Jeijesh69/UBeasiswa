@@ -45,3 +45,6 @@ Persyaratan
    php artisan db:seed --class=ScholarshipSeeder
    
 8. Jalankan aplikasi 
+
+
+Note : untuk versi kami deploy menggunakan github ini :  https://github.com/AmosJuang/Deploymeny-Paw/tree/main/database

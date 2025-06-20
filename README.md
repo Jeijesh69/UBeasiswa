@@ -1,14 +1,40 @@
-# UBeasiswa
-1. Instal laravel, mysql, php, dll lah
-2. bikin projek laravel baru
-3. merge isinya
-4. php artisan serve --> lgsung kebuka ggwp
+UBeasiswa
+UBeasiswa adalah aplikasi berbasis Laravel yang dirancang untuk membantu pengguna mendaftar dan mencari informasi tentang beasiswa. Selain itu, aplikasi ini menyediakan fitur mentor dan program untuk membantu pengguna mempersiapkan diri dalam mendapatkan beasiswa impian mereka.
+
+Fitur Utama
+Pendaftaran Beasiswa: Pengguna dapat mendaftar ke berbagai beasiswa yang tersedia.
+Informasi Beasiswa: Menampilkan daftar beasiswa lengkap dengan detail seperti penyelenggara, tanggal pendaftaran, dan deadline.
+Mentor: Pengguna dapat bergabung sebagai mentor atau mendapatkan bimbingan dari mentor profesional.
+Program: Menawarkan program unggulan seperti webinar, sesi mentoring, dan pelatihan untuk meningkatkan peluang mendapatkan beasiswa.
+Notifikasi: Memberikan notifikasi terkait aktivitas pengguna, seperti pendaftaran beasiswa.
+Laporan: Admin dapat menghasilkan laporan statistik beasiswa dan aplikasi dalam bentuk PDF.
 
 
+Cara Menjalankan Aplikasi
+Persyaratan
+  -PHP: Versi 8.2 atau lebih tinggi.
+  -Composer: Dependency manager untuk PHP.
+  -MySQL: Database untuk menyimpan data aplikasi.
 
-Note untuk migrasi database : 
-1.  Jalankan php artisam migrate
-2.  Ganti file untuk buat users table sama isi migrasi users table/table lain yang kubuat
-3.  jalanin php artisan migrate:fresh
-4.  Jalanin perintah php artisan db:seed --class=ScholarshipSeeder
-5.  Verifikasi data yang kuhardcode di scholarshipSeeder udah masuk di tabel (select * from scholarships) di mysql kalian
+Langkah-Langkah :
+1. Clone Repository
+    git clone https://github.com/yourusername/UBeasiswa.git
+    cd UBeasiswa
+
+2. Install Dependencies
+    composer install
+    npm install
+
+    
+3.Konfigurasi env 
+
+4. Generate Application Key
+php artisan key:generate
+
+5.Masukkan applicatiom key di env
+
+6. Migrasi dan Seed Database
+   php artisan migrate --force
+   php artisan db:seed --class=ScholarshipSeeder
+
+7. Jalankan aplikasi 

@@ -24,17 +24,11 @@ Langkah-Langkah :
 2. Install Dependencies
     composer install
     npm install
-
-    
 3.Konfigurasi env 
-
 4. Generate Application Key
-php artisan key:generate
-
+  php artisan key:generate
 5.Masukkan applicatiom key di env
-
 6. Migrasi dan Seed Database
    php artisan migrate --force
    php artisan db:seed --class=ScholarshipSeeder
-
 7. Jalankan aplikasi 
